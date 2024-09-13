@@ -1,0 +1,26 @@
+.bookMark-container {
+  height: 100vh;
+  padding-bottom: 80px;
+}
+.bookmark-item-container {
+  list-style-type: none;
+  padding: 10px;
+}
+.heading {
+  font-size: 20px;
+  font-weight: 600;
+}
+@media screen and (max-width: 480px) {
+  .bookMark-container {
+    height: 100vh;
+    padding-bottom: 80px;
+  }
+  .bookmark-item-container {
+    list-style-type: none;
+    padding: 10px;
+  }
+  .heading {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}

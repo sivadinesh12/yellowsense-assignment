@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+.job-card {
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0px 3px 5px rgb(168, 137, 197);
+  display: flex;
+  justify-content: space-between;
+}
+.card-details {
+  align-self: center;
+}
+.card-heading {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+}
+.company {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 13px;
+  color: #757575;
+}
+
+.icon {
+  height: 15px;
+  fill: rgb(95, 33, 153);
+}
+.detail-container {
+  display: flex;
+  margin-right: 13px;
+}
+.job-details {
+  display: flex;
+  flex-wrap: wrap;
+}
+.detail-text {
+  font-size: 12px;
+  font-family: "Josefin Sans", sans-serif;
+  margin-left: 7px;
+}
+.details-btn {
+  font-size: 15px;
+  color: rgb(179, 146, 210);
+  align-self: flex-end;
+  border: none;
+}
+.details-btn :hover {
+  color: blue;
+  text-decoration: underline;
+}
+.bookmark-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 480px) {
+  .job-card {
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0px 3px 5px rgb(168, 137, 197);
+    display: flex;
+    justify-content: space-between;
+  }
+  .card-details {
+    align-self: center;
+  }
+  .card-heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 600;
+  }
+  .company {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 13px;
+    color: #757575;
+  }
+
+  .icon {
+    height: 15px;
+    fill: rgb(95, 33, 153);
+  }
+  .detail-container {
+    display: flex;
+    margin-right: 13px;
+  }
+  .job-details {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .detail-text {
+    font-size: 12px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-left: 7px;
+  }
+  .details-btn {
+    font-size: 15px;
+    color: rgb(179, 146, 210);
+    border: none;
+  }
+  .details-btn :hover {
+    color: blue;
+    text-decoration: underline;
+  }
+  .bookmark-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    align-items: flex-end;
+  }
+}
